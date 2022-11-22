@@ -8,7 +8,7 @@ pipeline {
 */
     environment {
         registry = "shifanasreen/vproappdock"
-        registrycredential = "dockerhub"
+        registryCredential = "dockerhub"
         ARTVERSION = "${env.BUILD_ID}"
     }
 
